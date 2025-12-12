@@ -1,18 +1,19 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_application_my_app/les12/practice%2012.dart';
+import 'package:flutter_application_my_app/mysal/acc.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(MyWidget());
 }
 
-class MyApp extends StatelessWidget{
+class MyWidget extends StatelessWidget {
+  const MyWidget({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: "Flutter demo",
-      home: SignUpScreen1(),
+      home: Google(),
     );
   }
 }

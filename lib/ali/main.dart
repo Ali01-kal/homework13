@@ -1,6 +1,6 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_application_my_app/les12/practice%2012.dart';
+import 'package:flutter_application_my_app/ali/scroutly.dart';
+
 
 void main() {
   runApp(MyApp());
@@ -11,8 +11,7 @@ class MyApp extends StatelessWidget{
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: "Flutter demo",
-      home: SignUpScreen1(),
+      home: MyWidgetSign(),
     );
-  }
+}
 }
